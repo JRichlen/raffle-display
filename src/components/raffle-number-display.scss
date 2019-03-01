@@ -1,0 +1,25 @@
+body, #app, .raffle-number-display {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.raffle-number-display {
+  display: flex;
+  flex-wrap: wrap;
+
+  .raffle-number-button {
+    flex: 1 0 calc(25% - 20px);
+    font-size: 80px;
+    font-weight: bold;
+    margin: 20px;
+    max-width: calc(25% - 40px);
+  }
+
+  .raffle-number-input {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+  }
+}
